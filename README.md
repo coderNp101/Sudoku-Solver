@@ -2,7 +2,9 @@
 
 This program reads a random Sudoku problem from a file named `sudoku.txt`. Each Sudoku problem is assumed to be 10 lines long, and the program will randomly select one of the 50 problems in the file to display.
 
-## How It Works
+## How It Works (Sub Header 101)
+
+I am learning Git
 
 1. The program initializes the random number generator using the current time.
 2. It generates a random number between 0 and 49 to select one of the 50 Sudoku problems.
@@ -20,13 +22,13 @@ This program reads a random Sudoku problem from a file named `sudoku.txt`. Each 
 
 1. Ensure you have a file named `sudoku.txt` in the same directory as the `sudoku_read.c` program.
 2. Compile the program using a C compiler. For example:
-    ```sh
-    gcc sudoku_read.c -o sudoku_read
-    ```
+   ```sh
+   gcc sudoku_read.c -o sudoku_read
+   ```
 3. Run the compiled program:
-    ```sh
-    ./sudoku_read
-    ```
+   ```sh
+   ./sudoku_read
+   ```
 
 ## Notes
 

@@ -4,7 +4,7 @@
 
 int main()
 {
-
+    // random seed
     srand(time(0));
     int rand_problem_no = (rand() % 50); // generating a random number between 0 and 49
 
